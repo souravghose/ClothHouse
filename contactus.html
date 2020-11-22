@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClothHouse | Online Shopping</title>
+     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Oswald:wght@600&display=swap" rel="stylesheet">     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="Images/cart.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+      <nav class="navbar navbar-expand-lg" style="background-color:#fff">
+          <a class="navbar-brand" href="index.html">
+              <h1 id="logo">CLOTH<span style="color:black;">House</span></h1>
+              <span class="tagline">Top Online Shop in Bangladesh</span>
+          </a>
+          <button class="navbar-toggler" id="dropnav" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="False" aria-label="Toggle navigation">
+              <div class="menu"></div>
+              <div class="menu"></div>
+              <div class="menu"></div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active navbar-name">
+                      <a class="nav-link mg-right" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle mg-right" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                          Women
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Jackets</a>
+                      <a class="dropdown-item" href="#">Shirts</a>
+                      <a class="dropdown-item" href="#">Sleeveless Tops</a>
+                      <a class="dropdown-item" href="#">Beauty</a>
+                      <a class="dropdown-item" href="#">Sweaters</a>
+                      <a class="dropdown-item" href="#">Tops And T-Shirts</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle mg-right" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                          Men
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Jeans</a>
+                          <a class="dropdown-item" href="#">Jackets</a>
+                          <a class="dropdown-item" href="#">Shirts</a>
+                          <a class="dropdown-item" href="#">T-Shirts</a>
+                          <a class="dropdown-item" href="#">Swimwear</a>
+                          <a class="dropdown-item" href="#">Trousers</a>
+                      </div>
+                  </li>
+                  <li class="nav-item navbar-name">
+                      <a class="nav-link mg-right" href="#">Accessories</a>
+                  </li>
+                  <li class="nav-item navbar-name">
+                      <a class="nav-link mg-right" href="#">Shoes</a>
+                  </li>
+                  <li class="nav-item navbar-name">
+                      <a class="nav-link mg-right" href="contactus.html">Contact Us</a>
+                  </li>
+                   <li class="nav-item navbar-name">
+                      <a class="nav-link mg-right" href="#" title="SignUp"> <i class="fas fa-user-circle" style="font-size: 30px;"></i> </a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+</header>
+<!-- Contact Page Start -->
+  <h3 class="section-heading">How Can We Help You?</h3>
+  <p class="section-heading-paragraph">We are here to help and answer any question you might have. We look forward to hearing from you.</p>
+     <div class="form-main">
+       <form action="">
+      <input type="text" placeholder="Name" required> 
+      <input type="email" placeholder="Enter your email" required>
+      <textarea name="" id="" cols="30" rows="7" placeholder="Message" required></textarea>
+      <button>Submit</button>
+  </form>
+</div>
+
+
+
+  <!-- Footer Starts -->
+<div class="footer">
+  <div class="container"><div class="footer-main">
+    <div class="footer-category">
+      <h3>Category</h3>
+      <ul>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Winter Collection</a></li> 
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Accesories</a></li>
+        <li><a href="#">Shoes</a></li>
+      </ul>
+    </div>
+    <div class="footer-category">
+      <h3>My Account</h3>
+      <ul>
+        <li><a href="#">Portfolio Tool</a></li>
+        <li><a href="#">Market Alerts</a></li>
+        <li><a href="#">Price Alerts</a></li>
+        <li><a href="#">Product Reviews</a></li>
+        <li><a href="#">Account Settings</a></li>
+      </ul>
+    </div>
+    <div class="footer-category">
+      <h3>Customer Care</h3>
+      <ul>
+        <li><a href="#">Where Is My Order</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Shipping & Delivery</a></li>
+        <li><a href="#">Returns & Exchanges</a></li>
+        <li><a href="#">Payment FAQs</a></li>
+        <li><a href="#">State Sales Tax Information</a></li>
+      </ul>
+    </div>
+  </div></div>
+  <div class="footer-bottom">
+  <div class="footer-content">Copyright ©2020, ClothHouse. All Rights Reserved. Developed By 
+    <a href="https://www.facebook.com/profile.php?id=100021466540076" target="_blank">Sourav Ghose</a>.</div>
+<div class="footer-social-icon">
+  <ul>
+      <li><a href="#"><i class="fab fa-facebook-f" id="social-icon"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter" id="social-icon"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin-in" id="social-icon"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube" id="social-icon"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram" id="social-icon"></i></a></li>
+  </ul>
+</div>
+<img src="images/SSLCommerz-Pay-With-logo-All-Size-03.png" width="100%">
+</div> 
+</div>
+</body>
